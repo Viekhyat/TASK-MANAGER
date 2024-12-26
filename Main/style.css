@@ -11,6 +11,7 @@
     padding: 10px;
 }
 .todo-app{
+    margin: 70px;
     width: 100%; /* Increased width */
     max-width: 740px;
     background: #fff;
@@ -93,6 +94,8 @@ ul li.checked::before {
     font-size: 16px; /* Increased font size */
     color: #888;
     margin-left: 10px;
+    display: inline-block; /* Make date and time inline */
+    white-space: nowrap; /* Prevent line breaks within the element */
 }
 
 .delete-task {
